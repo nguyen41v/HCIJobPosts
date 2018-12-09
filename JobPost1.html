@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/styles/sections.css">
-    <script src="//code.jquery.com/jquery-1.10.2.js">     </script>
-    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <title>Title</title>
 </head>
 
@@ -30,25 +28,10 @@
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = 0;
-    } 
-  });
-}
+<script type="text/javascript" src="javascript/sections.js">
 </script>
 <script>
     ( "accordion" ).accordion({active: 0);
-
 </script>
 </body>
 </html>

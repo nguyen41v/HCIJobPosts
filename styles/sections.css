@@ -1,5 +1,5 @@
 .accordion {
-    background-color: #eee;
+    background-color: #ccc;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -11,8 +11,12 @@
     transition: 0.4s;
 }
 
-.active, .accordion:hover {
-    background-color: #ccc;
+.active {
+    background-color: #eee;
+}
+
+.accordion:hover {
+    background-color: #ddd;
 }
 
 .accordion:after {
